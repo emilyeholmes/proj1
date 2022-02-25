@@ -112,6 +112,28 @@ p {
     margin: 15px;
 }
 
+.projrow1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+
+}
+
+.projrow2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+
 .bottom-row {
     flex-direction: row;
     padding: 15px;
