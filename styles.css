@@ -114,6 +114,7 @@ p {
     height:350px;
     border: 3px solid #433E58;
     padding: 10px;
+    margin: 40px;
 }
 
 .img-col {
@@ -158,6 +159,18 @@ p {
     padding: 15px;
     margin: 10px;
 }
+
+.spacer {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: #0074d9;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    align-self: center;
+}
+  
 
 .project-col {
     border: 5px solid rgb(218, 227, 244);
