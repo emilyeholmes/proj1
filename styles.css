@@ -218,7 +218,7 @@ p {
     display: flex;
     height: 40px;
     width: auto;
-    background-color: #5885AF;
+    background-color: rgb(218, 227, 244);
     border-radius: 30px;
     margin: 20px;
     align-self: center;
