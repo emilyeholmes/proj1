@@ -1,0 +1,215 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    color:white;
+    background-color:#282E56;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.splash-page {
+    background-color:#C3E0E5;
+    background-image: url("https://www.ischool.berkeley.edu/sites/all/themes/custom/i_school/images/homepage_hero/1_campanile_at_night.jpg");
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5px;
+    margin: 0.5px;
+    background-color: white;
+    color:black;
+  }
+
+.nav-button {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    color: #C3E0E5;
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+.headline {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    letter-spacing: 1px;
+}
+  
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+}
+
+h2 {
+    color:#41729F;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+    font-size: 25px;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p {
+    font-weight: 200;
+    font-size: 22;
+}
+  
+.tagline {
+    text-shadow: 1px 1px 4px #C3E0E5;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+}
+
+.bottom-row {
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+}
+
+.col {
+    border: 5px solid rgb(218, 227, 244);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.profile {
+    width: 275px;
+    height:350px;
+    border: 3px solid #433E58;
+    padding: 10px;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color:#433E58;
+    padding: 20px;
+    margin: 10px;
+}
+
+.one-col {
+    background-color: rgb(218, 227, 244);
+    text-shadow: black;
+    color: #274472;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    max-width:90%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    max-width: 60%;
+    max-block-size: 50%;
+}
+
+.intro-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(218, 227, 244);
+    color:#274472;
+    max-width: 60%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.project-col {
+    border: 5px solid rgb(218, 227, 244);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    max-width: 30%;
+    text-align: center;
+}
+
+.stacked-col1 {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(218, 227, 244) ;
+    color: #5885AF;
+    max-width: 100%;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    max-width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fractal {
+    max-width:60%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #5885AF;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
