@@ -13,14 +13,15 @@ body {
 .splash-page {
     background-color:#C3E0E5;
     background-image: url("https://www.ischool.berkeley.edu/sites/all/themes/custom/i_school/images/homepage_hero/1_campanile_at_night.jpg");
+    height: 100%;
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5px;
-    margin: 0.5px;
+    padding: 1px;
+    margin: 1px;
     background-color: white;
     color:black;
   }
@@ -40,39 +41,65 @@ body {
     line-height: 3;
   }
 
-  .nav-button:link {
-      text-decoration: none;
-  }
+.nav-button:link {
+    color: #282E56;
+    text-decoration: none;
+}
 
-  a { 
+a { 
     text-decoration: none; 
-  }
+}
 
-  a:visited { 
-    text-decoration: none; 
-  }
+a:visited { 
+        text-decoration: none; 
+}
 
-  .nav-button:hover {
+.nav-button:hover {
     border-bottom: 1px solid;
     background: rgb(218, 227, 244);
-  }
+}
+
+.nav-button:active {
+    border-bottom: 1px solid;
+    background-color: #7c81a1;
+    transform: translateY(0.2em);
+}
 
 .headline {
     font-family: "Montserrat";
     text-align: center;
-    color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     letter-spacing: 1px;
 }
   
+.newnavbutton {
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newnavbutton:hover {
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px 1px white, 0 0 13px white, 0 0 3px white;
+}
+
+.newnavbutton:active {
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px white, 0 0 25px white, 0 0 10px white;
+}
+
 h1 {
-    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    font-family: "Montserrat";
     background-size: cover;
-    color: transparent;
+    color: #FFF;
     -moz-background-clip: text;
     -webkit-background-clip: text;
     text-transform: uppercase;
@@ -83,7 +110,7 @@ h1 {
 
 h2 {
     color:#41729F;
-    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+    text-shadow: 0.5px 0.5px 1px white, 0 0 13px white, 0 0 3px white;
     font-size: 25px;
 }
 
@@ -199,8 +226,8 @@ p {
     background-color: rgb(218, 227, 244);
     color:#274472;
     max-width: 60%;
-    padding: 20px;
-    margin: 40px;
+    padding: 30px;
+    margin: 20px;
 }
 
 .square {
@@ -212,6 +239,7 @@ p {
     margin: 20px;
     align-self: center;
     transform: rotate(45deg);
+    box-shadow: 8px 10px 8px white;
 }
 
 .rectangle {
@@ -278,4 +306,8 @@ p {
     font-size: 20px;
     margin: 2px 1px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(225, 239, 251);
 }
